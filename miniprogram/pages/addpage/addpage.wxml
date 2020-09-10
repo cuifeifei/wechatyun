@@ -1,0 +1,13 @@
+<!--miniprogram/pages/addpage/addpage.wxml-->
+<text>添加</text>
+<view class="itemView">标题：
+    <textarea class="title" name="userName" placeholder="标题"
+    bindinput="titleInput">
+    </textarea>
+  </view>
+<view class="itemView">描述：
+    <textarea class="des" password placeholder="描述" bindinput="desInput">
+    </textarea>
+  </view>
+
+  <button class="comit" bindtap="onClickComit">提交</button>
