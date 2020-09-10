@@ -1,0 +1,44 @@
+/* miniprogram/pages/addpage/addpage.wxss */
+textarea{
+  outline-style: none ;
+  border: 1rpx solid #ccc; 
+  border-radius: 3rpx;
+  padding: 14rpx 14rpx;
+  width: 96%;
+  font-size: 24rpx;
+  margin-top: 20rpx;
+  max-width: 96%;
+  text-align: left;
+
+}
+view{
+  font-size: 26rpx;
+  font-weight: bold;
+
+  padding-top: 10rpx;
+/* 
+  word-break: break-all;
+  word-wrap:break-word;  
+  border-radius: 10rpx; */
+}
+.title{
+  height: 30rpx;
+}
+.des{
+  height: 400rpx;
+}
+.comit{
+  margin-top: 20rpx;
+  border: none;
+  padding: 15rpx 32rpx;
+  text-align: center;
+  text-decoration: none;
+}
+text{
+  margin: 0 auto;
+  padding-top: 20rpx;
+  padding-bottom: 40rpx;
+  color: rgb(53, 216, 238);
+  font-size: 40rpx;
+  font-weight: bold;
+}

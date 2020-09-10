@@ -1,0 +1,15 @@
+<!--miniprogram/pages/mainpage/mainpage.wxml-->
+
+<view class="main">
+  <view class="tt">缄言</view>
+  <view class="alltap">
+    <view class="item" wx:for="{{allinfo}}" wx:for-item="item" wx:for-index="index" id="{{item.time}}" bindlongtap="longTapItem">
+      <text class="title">{{item.title}}</text>
+      <text class="des">{{item.des}}</text>
+    </view>
+  </view>
+
+
+  <image class="add" bindtap="onClickAdd" src="add.png" bindlongtap="longTapAdd" bindtouchend="bindTouchAddEnd"></image>
+  <view class="addtips" wx:if="{{isshow}}">点击添加言语</view>
+</view>
